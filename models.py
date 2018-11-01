@@ -12,6 +12,6 @@ class Product(Base):
     id = Column(Integer, primary_key= True)
     size = Column(Integer)
     types = Column(String)
-    color = Column(String)
+    #color = Column(String)
     price = Column(Integer)
 
